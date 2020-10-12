@@ -29,3 +29,42 @@ li{
     display: inline;
     text-decoration: none;
 }
+
+#agency-w {
+    background-color: rgb(224, 52, 52);
+    height: 735px;
+
+}
+.w {
+    position: relative;
+    text-align: center;
+    top: 101px !important;
+
+}
+.textinw {
+    position: relative;
+    text-align: center;
+    top: -30px;
+    color: white;
+    font-size: x-large;
+
+}
+.flexagency {
+
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 150px;
+    margin:auto;
+    
+
+}
+.featureone {
+
+    max-width: 246px;
+    max-height: 259px;
+    text-align: center;
+    margin: auto;
+    
+
+}
