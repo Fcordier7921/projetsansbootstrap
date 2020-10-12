@@ -23,7 +23,7 @@ header{
     border-bottom: rgb(156, 156, 156) solid 1px;
 }
 .logo{
-
+ justify-content: start;
 }
 li{
     display: inline;
