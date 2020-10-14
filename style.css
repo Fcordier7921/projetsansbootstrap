@@ -65,9 +65,9 @@ li {
 .feature {
 
     width: 246px;
-    min-height: 259px;
+    height:100%;
     text-align: center;
-    top: 250px;
+    margin: auto;
     margin-top: 120px;
 
 }
