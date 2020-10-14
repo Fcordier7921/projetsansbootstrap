@@ -34,7 +34,7 @@ li {
     text-decoration: none;
 }
 
-#agency-w {
+#features {
     background-color: rgb(210,18 ,66);
     width: 100%;
 
@@ -62,7 +62,7 @@ li {
     width: 100%;
 
 }
-.feature {
+.featuretext {
 
     width: 246px;
     height:100%;
@@ -145,12 +145,11 @@ li {
 }
 
 /* versiontablet */
-@media screen and (max-width:1024px){
+@media screen and (max-width:768px){
 
 
 }
 
-@media screen and (max-width:812px){
-
+@media screen and (max-width:375px){
 
 }
