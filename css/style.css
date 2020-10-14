@@ -12,23 +12,29 @@ body {
 header {
     background-image: url(../img/font1.jpg);
     background-repeat: no-repeat;
-    margin-top: 0;
+    background-size: cover;
+    margin: 0;
     min-height: 100vh;
-
 }
 
 nav {
     margin: 0rem 2rem 2rem 2rem;
     padding-top: 1rem;
     position: fixed;
-    min-width: 85vw;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    
     
 }
-
+.logo{
+    margin-left: 2vw;
+}
 .menu {
     display: none;
     flex-basis: 100%;
-    background-color: black;
+    justify-content: flex-end;
+    background-color: black;z-index: 3;
 }
 
 .menu li {
@@ -37,12 +43,11 @@ nav {
 
 .menu li a {
     display: inline-block;
-    padding: .5rem;
     text-decoration: none;
     font-family: 'gotham', 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
     color: white;
-    z-index: 2;
+    z-index: 4;
 }
 
 .menu-checkbox:checked~.menu {
@@ -65,19 +70,22 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.menu-toggle img{
+    margin-right: 2rem;
+}
 .socio {
     margin-left: 1rem;
+    margin-bottom: 1rem;
     flex-basis: auto;
 }
 
 .socio a {
-    margin: 1rem;
+    margin: 1.5rem;
 }
 header h1{
     font-family: 'gotham', 'Arial Narrow Bold', sans-serif;
     color: white;
-    font-size: 4rem;
+    font-size: 15vw;
     margin: auto;
     z-index: 1;
     text-align: center;
@@ -85,11 +93,9 @@ header h1{
 .d_f_g{
     min-height: 40vh;
 }
-.next{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: auto;
+.tit{
+    min-width: 100%;
+    height: 100vh;
 }
 .tit h4{
     color: white;
@@ -97,7 +103,22 @@ header h1{
 .tit a{
     color: white;
 }
-@media screen and (min-width: 65em) {
+.next{
+    position: absolute;
+    bottom: 1rem;
+    max-width: 1200px;
+    width: 100%;
+    z-index: 1;
+}
+.next h4{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.next img{
+    display: flex;
+    margin: auto;
+}
+@media screen and (min-width: 1090px) {
 
     
     .menu-toggle,
@@ -130,7 +151,6 @@ header h1{
 
     header {
         border: rgb(123, 123, 123) solid 1px;
-        min-height: 100vh;
     }
 
     li a:before {
@@ -144,7 +164,7 @@ header h1{
     }
     .active a:active:before {
         width: 80px;
-        color: slateblue;
+        
     }
     li a:hover:before {
 
@@ -161,9 +181,9 @@ header h1{
         width: 115px;
         margin-left: -1rem;
     }
-    h1{
+    /* h1{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
 }
