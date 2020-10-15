@@ -24,20 +24,18 @@ nav {
     max-width: 1200px;
     width: 100%;
     margin: auto;
-
-
+    z-index: 10;
+    
+    
 }
-
-.logo {
+.logo{
     margin-left: 2vw;
 }
-
 .menu {
     display: none;
     flex-basis: 100%;
     justify-content: flex-end;
-    background-color: black;
-    z-index: 3;
+    background-color: black;z-index: 3;
 }
 
 .menu li {
@@ -50,7 +48,7 @@ nav {
     font-family: 'gotham', 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
     color: white;
-    z-index: 4;
+    
 }
 
 .menu-checkbox:checked~.menu {
@@ -68,11 +66,9 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.menu-toggle img {
+.menu-toggle img{
     margin-right: 2rem;
 }
-
 .socio {
     margin-left: 1rem;
     margin-bottom: 1rem;
@@ -82,8 +78,7 @@ nav {
 .socio a {
     margin: 1.5rem;
 }
-
-header h1 {
+header h1{
     font-family: 'gotham', 'Arial Narrow Bold', sans-serif;
     color: white;
     font-size: 15vw;
@@ -91,45 +86,37 @@ header h1 {
     z-index: 1;
     text-align: center;
 }
-
-.d_f_g {
+.d_f_g{
     min-height: 40vh;
 }
-
-.tit {
+.tit{
     min-width: 100%;
     height: 100vh;
 }
-
-.tit h4 {
+.tit h4{
     color: white;
 }
-
-.tit a {
+.tit a{
     color: white;
 }
-
-.next {
+.next{
     position: absolute;
     bottom: 1rem;
     max-width: 1200px;
     width: 100%;
     z-index: 1;
 }
-
-.next h4 {
+.next h4{
     text-align: center;
     margin-bottom: .5rem;
 }
-
-.next img {
+.next img{
     display: flex;
     margin: auto;
 }
-
 @media screen and (min-width: 1090px) {
 
-
+    
     .menu-toggle,
     .menu-checkbox {
         display: none;
@@ -143,20 +130,16 @@ header h1 {
         margin-right: -1.2rem;
         background-color: transparent;
     }
-
-    li a {
+    li a{
         color: sienna;
     }
-
     .menu li {
         display: inline-block;
         margin: 1rem;
     }
-
-    .menu li a {
+    .menu li a{
         font-size: 1.1rem;
     }
-
     .socio {
         margin-top: 2.4rem;
         margin-right: 0;
@@ -175,30 +158,25 @@ header h1 {
         margin-top: 45px;
         transition: width 0.5s;
     }
-
     .active a:active:before {
         width: 80px;
-
+        
     }
-
     li a:hover:before {
 
         width: 80px;
         margin-left: -1rem;
     }
-
     .li_a1:hover:before {
 
         width: 95px;
         margin-left: -1rem;
     }
-
     .li_a2:hover:before {
 
         width: 115px;
         margin-left: -1rem;
     }
-
     /* h1{
         display: flex;
         align-items: center;
