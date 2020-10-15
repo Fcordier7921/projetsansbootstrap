@@ -52,15 +52,19 @@ nav {
 <<<<<<< HEAD
 }
 /* johan */
+
 #agency-w {
     background-color: rgb(224, 52, 52);
     height: 735px;
 
 }
+
 .w {
     position: relative;
     text-align: center;
     top: 101px !important;
+    
+
 
 }
 .textinw {
@@ -103,9 +107,11 @@ nav {
 .w {
     position: relative;
     text-align: center;
-    top: 101px !important;
+    top: 101px !important;   
 
 }
+
+  }
 .textinw {
     position: relative;
     text-align: center;
@@ -114,6 +120,10 @@ nav {
     font-size: x-large;
 
 }
+.w:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.4);
+}
 .flexagency {
 
     display: flex;
@@ -121,8 +131,12 @@ nav {
     justify-content: center;
     margin: auto;
     width: 100%;
+    transform-origin: 50% 50%;
+        animation: pulse 2s cubic-bezier(.5,.5,0,1);
+
 
 }
+
 .featuretext {
 
     width: 246px;
@@ -160,6 +174,7 @@ nav {
     margin: auto;
 
 }
+
 
 .akitatopimg {
 
