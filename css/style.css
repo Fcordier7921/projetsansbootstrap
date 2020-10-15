@@ -6,10 +6,23 @@ body {
 .content {
     max-width: 1200px;
     width: 100%;
+.content{
+    max-width:1200px;
+    width:100%;
     margin: auto;
 }
 
 header {
+    @font-face {
+        font-family: "gothamblack";
+        src: url('../font/gotham-black-webfont.woff') format('woff2'),
+             url('../font/gotham-black-webfont.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
+header{
     background-image: url(../img/font1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,4 +238,105 @@ header h1{
         justify-content: center;
     } */
 }
+<<<<<<< HEAD
 >>>>>>> header
+=======
+li{
+    display: inline;
+    text-decoration: none;
+}
+
+
+
+
+.b {
+  text-align: center;
+  padding: 91px;
+}
+
+.txt  {
+    text-align: center;
+    margin-top: -234px;
+    font-family: "gothamblack";
+}
+
+.love {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.imagee {
+    text-align: center;
+    margin-top: 77px;
+    
+
+}
+
+.test {
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 81px;
+}
+
+#fin {
+     background-color: rgb(218, 18, 66);
+     margin-top: 106px;
+     align-items: center;
+     display: flex;
+     
+}
+
+.finn {
+    display: flex;
+    justify-content: space-between;
+    max-width:1200px;
+    width:100%;
+    margin: auto;
+
+}
+
+.stylo {
+    float: left;
+    margin-right: 40px;
+}
+
+.footer {
+       background-color: rgb(34, 34, 34);
+       display: flex;
+       align-items: center;
+}
+
+.finn {
+    display: flex;
+    justify-content: space-between;
+    max-width:1200px;
+    width:100%;
+    margin: auto;
+
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    max-width:1200px;
+    width:100%;
+    margin: auto;
+
+}
+
+@media (max-width: 600px) {
+    .test {
+        display: initial;
+    }
+
+    .finn {
+        display: initial;
+    }
+
+.foot{
+    display: inline;
+}
+
+}
+>>>>>>> nasser
