@@ -1,6 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: 'Gotham-Font';
+    src: ('https://freefontsfamily.com');
+}
+body{
+    margin:0; 
+    padding:0;
 }
 
 .content {
@@ -72,8 +76,9 @@ nav {
     display: flex;
     color: white;
     justify-content: center;
-    margin-top: 150px;
-    margin:auto;
+    margin: auto;
+    
+    
     
 
 }
@@ -82,16 +87,140 @@ nav {
     max-width: 246px;
     max-height: 259px;
     text-align: center;
-    margin: auto;
+    top: 250px;
+    
+    
     
 
 }
-=======
-    font-family: 'gotham', 'Arial Narrow Bold', sans-serif;
+
+
+#features {
+    background-color: rgb(210,18 ,66);
+    width: 100%;
+
+}
+.w {
+    position: relative;
+    text-align: center;
+    top: 101px !important;
+
+}
+.textinw {
+    position: relative;
+    text-align: center;
+    top: -30px;
+    color: white;
+    font-size: x-large;
+
+}
+.flexagency {
+
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+
+}
+.featuretext {
+
+    width: 246px;
+    height:100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+.akitatop {
+
+    background-color: rgb(34,34,34);
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.akitatopleft {
+
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.akitatoptext {
+
+    width: 470px;
+    color: white;
+    margin-left: 213px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    margin: auto;
+
+}
+
+.akitatopimg {
+
+    width: 50%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.akitabot {
+
+    background-color: rgb(243,243,243);
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+
+}
+
+.akita.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.akitaimgbot {
+
+    min-width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.akitabottext {
+
+    width: 40%;
+    margin: auto;
+}
+.akitaimgbot {
+
+    width: 50%;
+}
+
+/* versiontablet */
+@media screen and (max-width:768px){
+
+
+}
+
+@media screen and (max-width:375px){
+
+}
+
+
+    /* font-family: 'gotham', 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
     color: white;
     
-}
+} */
 
 .menu-checkbox:checked~.menu {
     display: block;
@@ -225,9 +354,8 @@ header h1{
         justify-content: center;
     } */
 }
-<<<<<<< HEAD
->>>>>>> header
-=======
+header
+
 li{
     display: inline;
     text-decoration: none;
