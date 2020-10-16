@@ -1,7 +1,20 @@
-@font-face {
-    font-family: 'Gotham-Font';
-    src: ('https://freefontsfamily.com');
+
+    @font-face {
+        font-family: "gothamblack";
+        src: url('../font/gotham-black-webfont.woff') format('woff2'),
+             url('../font/gotham-black-webfont.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {    
+    font-family: "gothambook";
+    src: url('../font/gothambook-webfont.woff') format('woff2'),
+         url('../font/gothambook-webfont.woff2') format('woff');
+         font-weight: normal;
+         font-style: normal;
 }
+
 body{
     margin:0; 
     padding:0;
@@ -24,16 +37,18 @@ header {
 nav {
     margin: 0rem 2rem 2rem 2rem;
     padding-top: 1rem;
-    position: fixed;
     max-width: 1200px;
     width: 100%;
     margin: auto;
     z-index: 10;
-    
+    display: flex;
+    justify-content: center;
+    font-family: "gotha";
     
 }
 .logo{
-    margin-left: 2vw;
+    display: flex;
+    justify-content: start;
 }
 .menu {
     display: none;
@@ -49,22 +64,21 @@ nav {
 .menu li a {
     display: inline-block;
     text-decoration: none;
+<<<<<<< HEAD
 /* <<<<<<< HEAD */
+=======
+>>>>>>> 497d13147cfa2b119c6a90318b656b53a2699cc5
 }
-/* johan */
 
 #agency-w {
     background-color: rgb(224, 52, 52);
     height: 735px;
 
 }
-
 .w {
     position: relative;
     text-align: center;
     top: 101px !important;
-    
-
 
 }
 .textinw {
@@ -107,11 +121,14 @@ nav {
 .w {
     position: relative;
     text-align: center;
-    top: 101px !important;   
+    top: 101px !important;
 
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 497d13147cfa2b119c6a90318b656b53a2699cc5
 .textinw {
     position: relative;
     text-align: center;
@@ -120,11 +137,6 @@ nav {
     font-size: x-large;
 
 }
-
-.w:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.4);
-}
 .flexagency {
 
     display: flex;
@@ -132,22 +144,8 @@ nav {
     justify-content: center;
     margin: auto;
     width: 100%;
-    transform-origin: 50% 50%;
-        animation: pulse 2s cubic-bezier(.5,.5,0,1);
-
 
 }
-
-.logofeatures{
-
-    -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-
-}
-.logofeatures:hover img {
-    -webkit-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-  }
 .featuretext {
 
     width: 246px;
@@ -186,7 +184,6 @@ nav {
 
 }
 
-
 .akitatopimg {
 
     width: 50%;
@@ -194,16 +191,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
 
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+}
 
-}
-.akitatopimg:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
 .akitabot {
 
     background-color: rgb(243,243,243);
@@ -227,16 +216,6 @@ nav {
     height: 100%;
     flex-wrap: wrap;
     display: flex;
-
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.akitaimgbot:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
 }
 
 .akitabottext {
@@ -249,8 +228,16 @@ nav {
     width: 50%;
 }
 
-/* versiontablet */
-@media screen and (max-width:768px){
+/* lettre version telephone */
+@media screen and (max-width:600px){
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 10px;
+    }
 
 
 }
@@ -285,28 +272,17 @@ nav {
     margin-right: 2rem;
 }
 .socio {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 20px;
     flex-basis: auto;
 }
 
 .socio a {
     margin: 1.5rem;
 }
-header h1{
-    font-family: 'gotham', 'Arial Narrow Bold', sans-serif;
-    color: white;
-    font-size: 15vw;
-    margin: auto;
-    z-index: 1;
-    text-align: center;
-}
+
 .d_f_g{
-    min-height: 40vh;
-}
-.tit{
-    min-width: 100%;
-    height: 100vh;
+font-family: "gothambook";
+margin-top: 200px;
 }
 .tit h4{
     color: white;
@@ -406,6 +382,12 @@ li{
 }
 
 
+.image-zoom {
+	transition: 0.4s;
+  }
+  .image-zoom:hover {
+	transform: scale(1.2);
+  }
 
 
 .b {
@@ -498,4 +480,13 @@ margin-top: 81px;
 }
 
 }
+<<<<<<< HEAD
 /* >>>>>>> nasser */
+=======
+
+p {
+    font-family: "gothambook";
+}
+
+
+>>>>>>> 497d13147cfa2b119c6a90318b656b53a2699cc5
