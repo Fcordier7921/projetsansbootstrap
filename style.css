@@ -102,11 +102,15 @@ li {
 
 .akitatopimg {
 
-    width: 50%;
+    width: 100%;
     height:100%;
     display: flex;
     flex-wrap: wrap;
 
+}
+
+.akitatopimg img{
+    width:100%
 }
 
 .akitabot {
@@ -153,3 +157,5 @@ li {
 @media screen and (max-width:375px){
 
 }
+
+
